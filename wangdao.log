@@ -1,0 +1,26 @@
+[2018-04-23 20:27:02,813] [DEBUG] [templateSingleton.cc:AutoRelease:19] AutoRelease()
+[2018-04-23 20:27:02,813] [DEBUG] [templateSingleton.cc:Point:63] Point(int ix = 0,int iy =0)
+[2018-04-23 20:27:02,813] [DEBUG] [templateSingleton.cc:main:89] pt1 = 0xa9ac80
+[2018-04-23 20:27:02,813] [DEBUG] [templateSingleton.cc:main:90] pt2 = 0xa9ac80
+[2018-04-23 20:27:02,813] [DEBUG] [templateSingleton.cc:~Point:68] ~Point()
+[2018-04-23 20:27:02,813] [DEBUG] [templateSingleton.cc:~AutoRelease:26] ~AutoRelease()
+[2018-04-23 20:36:12,336] [DEBUG] [templateSingleton2.cc:init:30] Singleton::init()
+[2018-04-23 20:36:12,337] [DEBUG] [templateSingleton2.cc:Point:67] Point(int ix = 0,int iy =0)
+[2018-04-23 20:36:12,337] [DEBUG] [templateSingleton2.cc:init:73] Point::init(int,int)
+[2018-04-23 20:36:12,337] [DEBUG] [templateSingleton2.cc:main:108] pt1 = 0x1cfac80
+[2018-04-23 20:36:12,337] [DEBUG] [templateSingleton2.cc:main:109] pt2 = 0x1cfac80
+[2018-04-23 20:36:12,337] [DEBUG] [templateSingleton2.cc:destory:37] Singleton::destory() start
+[2018-04-23 20:36:12,337] [DEBUG] [templateSingleton2.cc:~Point:86] ~Point()
+[2018-04-23 20:36:12,338] [DEBUG] [templateSingleton2.cc:destory:40] Singleton::destory() end
+[2018-04-23 20:40:59,070] [DEBUG] [templateQueue.cc:Queue:22] Queue()
+[2018-04-23 20:40:59,070] [INFO] [templateQueue.cc:test1:120] The Queue is empty?1
+[2018-04-23 20:40:59,070] [INFO] [templateQueue.cc:test1:123] The Queue is empty?0
+[2018-04-23 20:40:59,070] [INFO] [templateQueue.cc:test1:130] The Queue head is AA
+[2018-04-23 20:40:59,070] [INFO] [templateQueue.cc:test1:131] The Queue tail is DD
+[2018-04-23 20:40:59,070] [INFO] [templateQueue.cc:test1:133] The Queue is full??1
+[2018-04-23 20:40:59,070] [INFO] [templateQueue.cc:test1:137] AA
+[2018-04-23 20:40:59,070] [INFO] [templateQueue.cc:test1:137] BB
+[2018-04-23 20:40:59,071] [INFO] [templateQueue.cc:test1:137] CC
+[2018-04-23 20:40:59,071] [INFO] [templateQueue.cc:test1:137] DD
+[2018-04-23 20:40:59,071] [INFO] [templateQueue.cc:test1:140] The Queue is empty?1
+[2018-04-23 20:40:59,071] [DEBUG] [templateQueue.cc:~Queue:56] ~Queue()
